@@ -1,2 +1,12 @@
 # atividadegit
-O projeto vai mostrar os planetas e característica de cada um, vai mostrar uma lista com as opções, adicionar um planeta, remover um planeta, listar um planeta, buscar um planeta e editar um planeta através de uma lista do 1 ao 5, poderá escolher o que deseja fazer das opções dadas. Ao escolher adicionar planeta, irá aparecer para colocar as características do planeta que deseja incluir, na segunda opção escolhe qual planeta deseja excluir da sua lista, terceira opção vai mostrar todos os planetas e as características de cada, quarta opção irá procurar o planeta na lista, quinta opção será editar algum planeta e mudar o que quiser no planeta, e terá uma outra opção com o número 0 sair do programa para quando não quiser mais participar.
+O jogo escolhe aleatoriamente uma categoria (frutas, animais ou países) e, dentro dessa categoria, escolhe uma palavra secreta.
+O jogo entra em um loop onde:
+Exibe as letras acertadas até o momento.
+Pede ao jogador para adivinhar uma letra.
+Verifica se a letra está na palavra secreta:
+Se sim, atualiza a lista de letras acertadas.
+Se não, incrementa o contador de erros e informa ao jogador quantas tentativas restam.
+O loop continua até que o jogador adivinhe todas as letras da palavra secreta ou atinja o limite de tentativas.
+Após o loop, o jogo verifica se o jogador adivinhou todas as letras:
+Se sim, exibe uma mensagem de vitória.
+Se não, exibe uma mensagem de derrota e revela a palavra secreta.
